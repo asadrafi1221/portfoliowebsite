@@ -1,0 +1,155 @@
+body {
+    /* animation: bodytransition 0.3s ease-in-out forwards;  */
+    color:red;
+    background:linear-gradient(red,black,rgb(3, 20, 74),red,black);
+overflow-x:hidden;
+
+
+}
+.navbar{
+    z-index: 12;    
+    backdrop-filter: blur(5px);
+    background-color: rgba(6, 15, 50, 0.137);
+    box-shadow: none;
+
+}
+.huge{
+    width:100vw;
+    height:0vh;
+    position: absolute;
+    z-index: 9999;
+    background-color: rgb(0, 7, 2);
+    animation:  hugediv 2s ease-in-out forwards; 
+    color:rgb(252, 252, 252);
+   
+}
+/* .huge h1{
+font-size: 20vh;
+position: relative;
+left:25vw;
+width:60vw;
+top:13vw;
+} */
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    position: relative;
+    top: 10vw;
+    z-index: 900; /* Higher z-index to ensure it covers the p-1 div */
+}
+.content img{
+    height:55vh;
+    position: relative;
+}
+
+.content h1{
+    text-shadow: 4px 4px 4px rgba(26, 177, 197, 0.5);
+
+}
+@keyframes hugediv {
+   0%{
+    height:100vh;
+
+   }
+   100%{
+    height:0vh;
+   }
+}
+/* @keyframes bodytransition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+} */
+.page-1{
+    /* background-color: rgb(67, 62, 62); */
+    height:140vh;
+    color:yellow;
+    z-index: -1;
+    flex-direction: column;
+    display: flex;
+}
+.slidebar {
+    display: none;
+   
+}
+.menubutton{
+    display: none;
+}
+.p-2{
+    /* background-color: rgb(94, 36, 36); */
+    height:100vh;
+    font-size: 35vh;
+    display: flex;
+    width:100vw;
+    overflow-x: hidden;
+    justify-content: center;
+align-items: center;
+}
+.p-2 div{
+height:70vh;
+    /* background-color: rgb(31, 31, 34); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.p-2 div h1{
+    color:rgb(255, 213, 1);
+    transform: translateX(60vw);
+}
+.p-3{
+    height:170vh;
+    /* background-color: red; */
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 12;
+}
+
+.content-p3 h1{
+    position: relative;
+    top:10vw;
+    z-index: 19;
+}
+.skillset{
+    /* background-color: blue; */
+    width:70vw;
+    padding:2vw;
+    height:10vh;
+    padding-bottom: 4vw;
+    backdrop-filter: blur(10px);
+    background-color: rgba(84, 97, 110, 0.158);
+    z-index: 9912;
+    background-image: url('asad2.jpg');
+    border-radius: 10px;
+}
+.skills{
+    /* background-color: blueviolet; */
+    width:100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top:15vw;
+    gap:5vw;
+}
+.skillset p{
+/* background-color: black; */
+position: relative;
+display: flex;
+justify-content: flex-end;
+width:4vw;
+}
+.skillset h6{
+    height:1vw;
+    width:2vw;
+    background-color: red;
+    
+}

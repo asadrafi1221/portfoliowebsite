@@ -1,0 +1,120 @@
+body {
+    color: rgb(0, 0, 0);
+    background:linear-gradient(black,rgb(21, 49, 21),black,black);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  overflow-x: hidden;
+  
+}
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+.big-div
+{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 12222;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2vw;
+    font-weight: bolder;
+    align-items: center;
+    animation:  hugediv 2s ease-in-out forwards; 
+}
+
+.navbar{
+        display: flex;
+        background-color: rgba(13, 59, 16, 0.276);
+        backdrop-filter: blur(5px);
+        /* box-shadow: 5px 5px 5px rgb(12, 66, 5); */
+        position: fixed;
+        width: 100vw;
+        color: white;
+        justify-content: space-around;
+        height: 14vh;
+        align-items: center;
+        z-index: 9999;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.navbar div {
+    display: flex;
+    
+    gap: 7vw;
+}
+
+.page-1{
+    /* background-color: rgb(255, 255, 255); */
+    height:80vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.content{
+    display: flex;
+/* background-color: rgb(255, 255, 255); */
+font-size: 7vh;
+color: white;
+flex-direction: column;
+align-items: center;
+text-shadow: 2px 2px 4px rgba(33, 31, 31, 0.5);
+
+}
+.page-2{
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+height:150vh;
+flex-direction: column;
+}
+.scroll-text {
+    display: flex;
+justify-content: space-around;
+/* background-color: rgb(0, 0, 0); */
+width:100vw;
+position: relative;
+top:100px;
+height:50vh;
+}
+.scroll-text h1{
+    color:yellow;
+
+}
+.scroll-text p{
+    color:white;
+    position: relative;
+    top:15vw;
+}
+.slidebar{
+    display: none;
+}
+.menubutton{
+    display: none;
+}
+.javascript p{
+    color:rgb(238, 255, 6);
+    position: relative;
+   
+}
+.javascript{
+    /* background-color: rgb(0, 0, 0); */
+    position: relative;
+    top:20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13vw;
+}

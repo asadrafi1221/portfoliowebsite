@@ -1,0 +1,148 @@
+@media screen and (max-width:1720px) {
+    /* .p-1 div h1{
+      font-size: 7vw;
+    } */
+    .p1-content{
+        color:white;
+        position: relative;
+        top:9.5vw;
+    }
+    }
+  
+   @media screen and (max-width:1250px) {
+    /* .p-1 div h1{
+      font-size: 20vw;
+    } */
+    .p1-content{
+        display: flex;
+        top:11vw;
+        flex-direction: column;
+    }
+    } 
+  
+    @media screen and (max-width:1100px) {
+
+        .p1-content{
+            display: flex;    
+            flex-direction: column;
+           
+        
+        }
+       
+       
+     .img-div div{
+        display: flex;
+        flex-direction: column;
+        z-index: 111;
+     }
+     .content-p2{
+        z-index: 1111;
+        position: relative;
+        top:-50vw;
+       
+        
+     }
+     .content-p2 h1{
+        font-size: 14vw;
+     }
+     .p2-page{
+        /* background-color: red; */
+        height:300vh;
+        z-index: -1;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .img-div div p{
+        height:60vh;
+        width:80vw;
+        position: relative;
+        top:0;
+     }
+     .img-div div{
+       height:100vh;
+       gap:5vw;
+        
+     }
+     .p2-page{
+        height:300vh;
+     }
+    }
+    @media screen and (max-width:680px) {
+        .p1-content h1{
+            display: flex;    
+            flex-direction: column;
+            position: relative;
+            border-radius: 10px;
+            font-size: 5vw;
+            /* background-color: red; */
+        }
+        .p1-content p{
+            display: flex;    
+            flex-direction: column;
+            position: relative;
+            border-radius: 10px;
+            font-size: 5vw;
+            /* background-color: red; */
+        }
+        .navbar{
+            display: none;
+        }
+        .content-p2{
+            z-index: 1111;
+            position: relative;
+            top:-110vw;
+            /* background-color: yellow; */
+           
+            
+         }
+         .img-div div p{
+            border-radius: 10px;
+         }
+         .slidebar{
+            display: block;
+            position: absolute;
+            background-color: rgba(38, 35, 35, 0.322);
+            backdrop-filter: blur(10px);
+            z-index: 121212;
+            left:0;
+            top:0;
+            width:50vw;
+            height:70vh;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+            font-size: 4vw;
+            transform: translateX(-100%);
+         }
+         .slidebar a{
+            text-decoration: none;
+            color:white;
+         }
+         .closebutton{
+            position: absolute;
+            right: 0;
+            top:0;
+            background-color: white;
+            color:black;
+            padding:10px;
+         }
+         .slidebarmenu{
+            display: flex;
+            background-color: yellow;
+            position: absolute;
+            left:0;
+            top:0;
+            width:10vw;
+            height:10vw;
+            color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+         }
+     
+    }

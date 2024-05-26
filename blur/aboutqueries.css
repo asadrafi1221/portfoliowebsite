@@ -1,0 +1,113 @@
+@media screen and (max-width:1720px) {
+  /* .p-1 div h1{
+    font-size: 7vw;
+  } */
+  .p-2 div h1{
+    font-size: 33vw;
+  }
+  }
+
+ @media screen and (max-width:1250px) {
+  /* .p-1 div h1{
+    font-size: 20vw;
+  } */
+ .p-3 h1{
+  font-size: 13vw;
+ }
+ .p-3 h1{
+  font-size: 3vw;
+ }
+  } 
+
+  @media screen and (max-width:950px) {
+    .huge h1{
+     font-size: 8vh;
+    }
+    .p-2 div h1{
+      font-size: 25vw;
+    }
+  }
+  @media screen and (max-width:680px) {
+
+    .slidebar{
+        display: block;
+        position: absolute;
+        background-color: rgba(38, 35, 35, 0.322);
+        backdrop-filter: blur(10px);
+        z-index: 121212;
+        left:0;
+        top:0;
+        width:50vw;
+        height:70vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 4vw;
+        transform: translateX(-100%);
+        position: fixed;
+     }
+
+     .menubutton{
+      display: flex;
+      background-color: yellow;
+      position: absolute;
+      left:0;
+      top:0;
+      width:10vw;
+      height:10vw;
+      color:black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+     }
+     .slidebar a{
+      text-decoration: none;
+      color:white;
+   }
+   .closebutton{
+      position: absolute;
+      right: 0;
+      top:0;
+      background-color: white;
+      color:black;
+      padding:10px;
+   }
+    
+   .content img{
+    height:65vw;
+   }
+   .p-3{
+    /* background-color: yellow; */
+    height:100vh;
+   }
+   .content-p3{
+    position: relative;
+    color:white;
+    font-size: 12vw;
+    display: flex;
+    /* background-color: blue; */
+    top:0;
+    left:0;
+   }
+   .content-p3::before{content: 'MY PROJECTS';
+  position:absolute;
+  background-color: rgb(33, 2, 2);
+  margin-left: -2vw;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding:3vw;
+/* border-radius: 10px; */
+  width:50vw;
+  font-size: 6vw;
+  height: 3vh;
+
+}
+   
+  }
+
+  

@@ -1,0 +1,105 @@
+.bigdiv {
+    background-color: black;
+    position: absolute;
+    color: white;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow-x: hidden;
+    height: 100vh;
+    background: linear-gradient(white, rgb(125, 119, 119), black);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(45, 44, 44, 0.244);
+    backdrop-filter: blur(5px);
+    color:black;
+    position: fixed;
+    width: 100vw;
+    
+    justify-content: space-around;
+    height: 14vh;
+    align-items: center;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar div {
+    display: flex;
+    gap: 7vw;
+}
+
+.container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: -1;
+}
+
+.right-div {
+    display: flex;
+    /* background-color: black; */
+    flex-direction: column;
+    z-index: -1;
+    gap:2.5vw;
+}
+
+.left-div {
+    display: flex;
+    z-index: -1;
+}
+
+.left-div input{
+    height: 60vh;
+width:50vw;
+}
+
+input {
+    background-color:transparent;
+    height: 27vh;
+    color:white;
+    font-size: 2vw;
+    backdrop-filter: blur(10px);
+   outline: none;
+   
+    border: none;
+    box-shadow: 4px 5px 2px 4px black;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.right-div input{
+   width:40vw;
+}
+input::placeholder{
+    font-size: 2vw;
+    color:white;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+
+
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" hred="signup.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<title>Blur Filter Example</title>
+</head>
+<style>
+  
+  body{
+    background:linear-gradient(rgb(145, 137, 137),rgb(19, 112, 130));
+ font-family: "Poppins", sans-serif;
+    font-weight: 300;;
+    display: flex;
+background-size: cover;
+background-position: center;
+justify-content: center;
+align-items:center;
+height: 100vh;
+flex-direction: column;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+
+  }
+ 
+  .container{
+    height:330px;
+    width:300px;
+    position: relative;
+    background-color: red;
+    background: transparent;
+    border: 2px solid white;
+    gap:20px;
+   backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top:30px;
+    left:0px;
+    border-radius: 10px;
+    transition: 4s all;
+    border: none;
+color:white;
+    box-shadow: 1px 3px 4px 1px black;
+  }
+  .container input{
+    margin-top: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 3px 4px 1px black;
+height:17px;
+outline: none;
+padding: 5px;
+color:rgb(170, 192, 196);
+width:200px;
+  }
+  .container h1{
+    position: relative;
+    top:-20px
+  }
+  .container p{
+text-transform:capitalize ;
+  }
+  .container button{
+    position: relative;
+    left:50px;
+    top:20px;
+    background-color: transparent;
+    color:red;
+    padding: 10px;
+    width:100px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 3px 4px 1px rgb(61, 3, 3);
+
+  }
+  
+
+</style>
+<div id="box" style="background-color: red; position: absolute; left: 0; top: 0; width: 100vw;">hello</div>
+
+<div class="container">
+  <h1>Sign up</h1>
+  <div class="upper">
+<p class="name">
+  enter your name</p>
+  <input required>
+</p>
+  </div>
+  <div class="upper">
+    <p class="password">
+      enter your password</p>
+      <input required>
+    </p>
+    <button type="submit" onclick="move()">sumbit</button>
+  </div>
+  </div>
+
+  
+<body>
+
+
+  
+
+</body>
+<script>
+  function move(){
+   
+    let button = document.querySelector('button');
+    let box = document.querySelector('.container');
+    box.style.left='-100%';
+    setTimeout(()=>{
+      box.style.display='none';
+    },1000)
+    
+  }
+</script>
+</html>
